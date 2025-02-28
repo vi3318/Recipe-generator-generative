@@ -6,7 +6,7 @@ export default function Home() {
       <div className="mx-auto max-w-5xl">
         <div className="mb-8 text-center">
           <h1 className="mb-2 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Recipe <span className="text-primary">Generator</span>
+            Vidarsh <span className="text-primary">Recipe</span><span className="mb-2 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">Generator</span>
           </h1>
           <p className="text-muted-foreground md:text-lg">
             Enter your ingredients and let AI create the perfect recipe for you
