@@ -83,12 +83,16 @@ Submit a pull request
 Helps users save time by generating instant meal ideas
 Encourages healthier eating with nutritional insights
 Reduces food waste by utilizing available ingredients
+
 📜 License
 This project is open-source and available under the MIT License.
 
 🔗 Contact
+
 For any queries, feel free to reach out:
+
 📧 Email: vihaandharia04@gmail.com
+
 🔗 GitHub: vi3318
 
 
