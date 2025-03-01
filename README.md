@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ 🍽️ AI Recipe Generator
 
-## Getting Started
+An AI-powered recipe generator built using **Next.js, Tailwind CSS, and Google Gemini API**. This app helps users generate unique recipes based on given ingredients, offering precise cooking instructions and detailed nutritional information.
 
-First, run the development server:
+ Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ Problem Statement
+People often struggle to come up with meal ideas based on the ingredients they have at home. Searching for recipes manually can be time-consuming, and nutritional information is often missing.
+
+### 🔹 Solution
+The **AI Recipe Generator** simplifies meal planning by leveraging **Google Gemini API** to generate step-by-step recipes, complete with:
+- Detailed **cooking instructions**
+- **Accurate nutritional information** per serving
+- Quick and **customized meal suggestions**
+
+This tool is ideal for **home cooks, nutrition-conscious individuals, and food enthusiasts** looking for easy-to-make recipes with precise guidance.
+
+## 🎥 Live Demo  
+🔗 [Project Demo](https://recipe-generator-generative-sfuw.vercel.app/)
+
+## 📂 Features
+✅ Generate **AI-powered recipes** from any set of ingredients  
+✅ Provides **step-by-step cooking instructions**  
+✅ Displays **nutritional breakdown** for each recipe  
+✅ **Fast and responsive UI** with **Next.js & Tailwind CSS**  
+✅ Uses **Google Gemini API** for intelligent recipe generation  
+
+## 🛠️ Tech Stack  
+- **Next.js** - Frontend framework  
+- **Tailwind CSS** - Styling  
+- **Google Gemini API** - AI recipe generation  
+
+## 🔧 Setup & Installation
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/AI-Recipe-Generator.git
+cd AI-Recipe-Generator
+```
+ 2️⃣Install Dependencies
+
+Copy
+Edit
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3️⃣ Set Up Environment Variables
+Create a .env.local file in the root directory and add your Google Gemini API key:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+env
+Copy
+Edit
+```sh
+NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
+```
 
-## Learn More
+4️⃣ Run the Project Locally
+Copy
+Edit
+```sh
+npm run dev
+```
+Your project will be live at http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+📜 Usage Instructions
+Enter the ingredients you have.
+Click "Generate Recipe" to let AI suggest a dish.
+Follow the step-by-step cooking guide.
+View nutritional information for each serving.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🤝 Contribution Guidelines
+Fork the repository
+Create a new branch (git checkout -b feature-branch)
+Commit changes (git commit -m "Added new feature")
+Push to GitHub (git push origin feature-branch)
+Submit a pull request
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🏆 Impact
+Helps users save time by generating instant meal ideas
+Encourages healthier eating with nutritional insights
+Reduces food waste by utilizing available ingredients
+📜 License
+This project is open-source and available under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 Contact
+For any queries, feel free to reach out:
+📧 Email: vihaandharia04@gmail.com
+🔗 GitHub: vi3318
+
+
